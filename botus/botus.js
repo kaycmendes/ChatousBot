@@ -41,13 +41,18 @@ async function run() {
   });
 }
 nickname = process.argv[2];
+bots = process.argv[3];
 
-run()
+for (let i = 0; i < bots; i++) {
+  run()
   .then(() => {
     console.log("no problems");
   })
   .catch(err => {
     console.log(err.message)
   });
+}
+
+
 
   // for i in {1..30};  do  echo "$i Like"; node chatous2.0;  done
