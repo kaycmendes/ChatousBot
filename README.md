@@ -11,7 +11,7 @@ npm i puppeteer
 ```
 
 ## Usage
-Ex: node (username) (number of likes)
+Ex: node botus (username) (number of likes)
 ```bash
 node botus user1 10
 ```
